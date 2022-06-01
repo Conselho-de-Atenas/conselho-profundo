@@ -39,6 +39,7 @@ jobs:
         run: |
           git config --global user.name 'Princessmortix'
           git config --global user.email 'princessmortix@users.noreply.github.com'
+          git add .
           git commit -am "auto-push: construção das páginas"
           git push
     
